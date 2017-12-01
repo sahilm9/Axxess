@@ -72,3 +72,15 @@ ul li {
     box-shadow: 10px 10px 15px #333;
     font-family: Georgia, Times, serif;
 }
+/* Styling background for boxes */
+.divisibility-background{
+    background-color:  #1b4e5e;
+}
+
+.perfect-square-background{
+    background-color: #1a71b8;
+}
+
+.prime-number-background{
+    background-color:#fc3fc3;
+}
