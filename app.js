@@ -83,6 +83,6 @@ function mainfunction(){
                 box2.classList.add("divisibility-background");
             }
             
-        }   
-
+        }(); // Immediately invoked function
             
+           
