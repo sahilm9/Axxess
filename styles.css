@@ -60,3 +60,10 @@ input{
     background-color: #1a71b8;
     
 }
+
+/* Styling form fields */
+
+#form-fields{
+    margin: 15px 0;
+}
+
