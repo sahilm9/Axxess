@@ -51,8 +51,19 @@ function mainfunction(){
     
             else{
                 // if number isn't divisbile by 5, removing the below class
-                box2.classList.remove("divisibility-background");
-                 
+                box2.classList.remove("divisibility-background");   
             }
-           
+               
+            // checking if number is perfect sqaure  
+            if(counter % Math.sqrt(counter) === 0){
+                // adding "perfect-square-background" class defined in styles.css
+                box3.classList.add("perfect-square-background");
+                console.log("perfect square");         
+            }
+            
+            else{
+                // if number isn't perfect square, removing the below class
+                box3.classList.remove("perfect-square-background"); 
+            }
+            
             
