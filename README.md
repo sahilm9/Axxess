@@ -2,12 +2,12 @@
 Coding Assignment
 
 The page has the following
-1.     An input field that will take a number
-2.     A counter that will count up incrementally from 0 to the given number
-3.     Have 4 blocks each with one of the word's fingers,toes, eyes and smile
-4.     A start button
-4.     A reset button
-5.     A restart button
+- An input field that will take a number
+- A counter that will count up incrementally from 0 to the given number
+- Have 4 blocks each with one of the word's fingers,toes, eyes and smile
+- A start button
+- A reset button
+- A restart button
 
 The page does the following
 
