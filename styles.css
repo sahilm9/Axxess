@@ -1,15 +1,11 @@
 /* Styles for index.html */
 
 /* Base Styles */
-
 *{
     margin: 0;
     padding: 0;
 }
-
-
 /* Styling container */
-
 #container{
 
     min-height:600px;
@@ -22,11 +18,9 @@
     padding: 10px;
     text-align: center;
     box-sizing:border-box;
-
 }
 
 /* Styling h1 */
-
 h1{
     color: #db4e3e;
     background-color: #373737;
@@ -34,10 +28,7 @@ h1{
     margin:5px 0 10px;
     font-family:Helvetica, Arial, sans-serif;
 }
-
-
 /* Styling input */
-
 input{
     padding:5px;
     border:solid 1px #454545;
@@ -45,9 +36,7 @@ input{
     outline: none;
     margin-right:5px;
 }
-
 /* Styling buttons */
-
 .button{
     outline:none;
     color: #fff;
@@ -58,12 +47,13 @@ input{
     border-radius:5px;
     margin:10px 5px 0;
     background-color: #1a71b8;
-    
 }
-
 /* Styling form fields */
-
 #form-fields{
     margin: 15px 0;
 }
-
+/* Styling li's */
+ul li {
+    list-style: none;
+    display:inline-block;
+}
