@@ -39,12 +39,24 @@ h1{
 /* Styling input */
 
 input{
-    
     padding:5px;
     border:solid 1px #454545;
     border-radius:5px;
     outline: none;
     margin-right:5px;
+}
 
- 
+/* Styling buttons */
+
+.button{
+    outline:none;
+    color: #fff;
+    padding:5px;
+    text-transform: capitalize;
+    border: none;
+    font-family: Monaco, monospace;
+    border-radius:5px;
+    margin:10px 5px 0;
+    background-color: #1a71b8;
+    
 }
