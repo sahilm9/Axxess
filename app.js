@@ -85,4 +85,17 @@ function mainfunction(){
             
         }(); // Immediately invoked function
             
+        // condition for counter to stop    
+        if(counter === target){
+            console.log(counter);
+            gameOver = true;
+            clearInterval(setIntervalId);  
+        }     
+        counter++;           
+             }
+        },1000);    
+}    
+                
+
+         
            
