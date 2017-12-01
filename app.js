@@ -31,6 +31,12 @@ resetButton.addEventListener("click", function(){
     reset(); // calls reset function
 });
 
+// numInput checking for changes in input and not just clicking, when a change is made to input, reset() gets called and game starts from begining.
+numInput.addEventListener("change", function(){
+    
+    reset();
+})
+
 //function for resetting the counter to 0 and removing any classes which are there
 
 function reset(){
