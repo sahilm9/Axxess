@@ -31,6 +31,17 @@ resetButton.addEventListener("click", function(){
     
 });
 
+//function for resetting the counter to 0 and removing any classes which are there
+
+function reset(){
+    
+    counter = 0;
+    box1.classList.remove("divisibility-background");
+    box2.classList.remove("divisibility-background");
+    box3.classList.remove("perfect-square-background");
+    box4.classList.remove("prime-number-background");
+}
+
 
 // writing startFunction
 function startFunction(){
