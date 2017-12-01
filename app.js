@@ -24,3 +24,35 @@ function checkPrime(num) {
     }
     return true;
 }
+
+// main logic
+function mainfunction(){
+    var setIntervalId = setInterval(function(){
+        if(!gameOver){
+            console.log(counter);
+            var display = function(){
+                
+            // checking for divisibility by 3    
+            if(counter% 3 === 0){
+               // adding "divisibility-background" class defined in styles.css    
+               box1.classList.add("divisibility-background"); 
+               console.log("divided by 3");
+            }
+            else{
+                // if number isn't divisbile by 3, removing the below class
+                box1.classList.remove("divisibility-background");
+            }
+            // checking for divisibility by 5        
+            if(counter % 5 === 0){
+                 // adding "divisibility-background" class defined in styles.css 
+                box2.classList.add("divisibility-background");
+                console.log("divided by 5"); 
+            }
+    
+            else{
+                // if number isn't divisbile by 5, removing the below class
+                box2.classList.remove("divisibility-background");
+                 
+            }
+           
+            
