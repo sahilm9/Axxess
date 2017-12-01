@@ -13,6 +13,11 @@ var counter =0;
 var target;
 var gameOver = false;
 
+//adding event listener for startbutton where startFunction gets called which inturn starts mainfunction
+start.addEventListener("click", function(){
+    startFunction();
+});
+
 // writing startFunction
 function startFunction(){
     gameOver = false; 
