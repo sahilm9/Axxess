@@ -8,6 +8,23 @@
 }
 
 
+/* Styling container */
+
+#container{
+
+    min-height:600px;
+    display:block;
+    max-width: 760px;
+    width: 80%;
+    background-color: #aaa;
+    margin: 20px auto;
+    border: 10px solid #fc3;
+    padding: 10px;
+    text-align: center;
+    box-sizing:border-box;
+
+}
+
 /* Styling h1 */
 
 h1{
@@ -17,3 +34,4 @@ h1{
     margin:5px 0 10px;
     font-family:Helvetica, Arial, sans-serif;
 }
+
