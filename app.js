@@ -13,6 +13,13 @@ var counter =0;
 var target;
 var gameOver = false;
 
+// writing startFunction
+function startFunction(){
+    gameOver = false; 
+    target = Number(numInput.value); // changing the value from string to Number
+    mainfunction(); // calling the mainfunction
+}
+
 // function for smile box( prime function)
 function checkPrime(num) {
     if(num < 2) {
