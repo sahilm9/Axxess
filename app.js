@@ -12,3 +12,15 @@ var box2 = document.getElementById("box2");
 var counter =0;
 var target;
 var gameOver = false;
+
+// function for smile box( prime function)
+function checkPrime(num) {
+    if(num < 2) {
+        return false;
+    }
+    for (var i = 2; i < num; i++) {
+        if(num%i==0)
+            return false;
+    }
+    return true;
+}
