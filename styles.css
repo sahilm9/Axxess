@@ -1,1 +1,19 @@
+/* Styles for index.html */
 
+/* Base Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Styling h1 */
+
+h1{
+    color: #db4e3e;
+    background-color: #373737;
+    padding: 10px;
+    margin:5px 0 10px;
+    font-family:Helvetica, Arial, sans-serif;
+}
