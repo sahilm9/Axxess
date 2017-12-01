@@ -51,6 +51,7 @@ function reset(){
 
 // writing startFunction
 function startFunction(){
+     counter =0;
     gameOver = false; 
     target = Number(numInput.value); // changing the value from string to Number
     mainfunction(); // calling the mainfunction
