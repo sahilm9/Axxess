@@ -24,11 +24,11 @@ restart.addEventListener("click", function(){
     startFunction();
 });
 
-// adding eventlistener for resetButton where it stops the game control, changes the input to empty string
+// adding eventlistener for resetButton where it stops the game control, changes the input to empty string and calling reset function
 resetButton.addEventListener("click", function(){
     numInput.value=" ";
     gameOver = true;
-    
+    reset(); // calls reset function
 });
 
 //function for resetting the counter to 0 and removing any classes which are there
