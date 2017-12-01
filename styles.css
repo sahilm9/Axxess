@@ -35,3 +35,16 @@ h1{
     font-family:Helvetica, Arial, sans-serif;
 }
 
+
+/* Styling input */
+
+input{
+    
+    padding:5px;
+    border:solid 1px #454545;
+    border-radius:5px;
+    outline: none;
+    margin-right:5px;
+
+ 
+}
