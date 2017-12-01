@@ -76,7 +76,13 @@ function mainfunction(){
                 // if number isn't prime, removing the below class
                 box4.classList.remove("prime-number-background");  
             }
-        
+            // checking for divisibility by 3 and 5  
+            if(counter % 3 === 0 && counter % 5 === 0){
+                // adding below classes defined in css
+                box1.classList.add("divisibility-background");
+                box2.classList.add("divisibility-background");
+            }
             
+        }   
 
             
