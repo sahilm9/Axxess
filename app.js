@@ -24,6 +24,13 @@ restart.addEventListener("click", function(){
     startFunction();
 });
 
+// adding eventlistener for resetButton where it stops the game control, changes the input to empty string
+resetButton.addEventListener("click", function(){
+    numInput.value=" ";
+    gameOver = true;
+    
+});
+
 
 // writing startFunction
 function startFunction(){
