@@ -65,5 +65,18 @@ function mainfunction(){
                 // if number isn't perfect square, removing the below class
                 box3.classList.remove("perfect-square-background"); 
             }
+            // checking if number is prime number by calling checkPrime function by passing counter
+            if(checkPrime(counter)){
+                // adding "prime-number-background" class defined in styles.css
+                box4.classList.add("prime-number-background");
+                  console.log("prime number");     
+            }
             
+            else{
+                // if number isn't prime, removing the below class
+                box4.classList.remove("prime-number-background");  
+            }
+        
+            
+
             
