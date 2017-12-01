@@ -18,6 +18,13 @@ start.addEventListener("click", function(){
     startFunction();
 });
 
+//adding event listener for restartbutton where startFunction gets called which inturn starts mainfunction
+
+restart.addEventListener("click", function(){
+    startFunction();
+});
+
+
 // writing startFunction
 function startFunction(){
     gameOver = false; 
