@@ -1,4 +1,4 @@
-Fun Math game
+Fun Math Game
 
 The page has the following
 - An input field that will take a number
