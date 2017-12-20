@@ -1,5 +1,4 @@
-# Axxess
-Coding Assignment
+Fun Math game
 
 The page has the following
 - An input field that will take a number
